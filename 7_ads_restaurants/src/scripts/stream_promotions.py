@@ -1,7 +1,7 @@
 from datetime import datetime
 from pyspark.sql import SparkSession, DataFrame
 from pyspark.sql import functions as f
-from pyspark.sql.types import StructType, StructField, StringType, LongType,  DoubleType, TimestampType, IntegerType
+from pyspark.sql.types import StructType, StructField, StringType, LongType, DoubleType, TimestampType, IntegerType
 
 
 # необходимые библиотеки для интеграции Spark с Kafka и PostgreSQL

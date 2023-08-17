@@ -39,7 +39,7 @@ def load_dataset_file_to_vertica(
                 table: str,
                 columns: List[str],
                 type_override: Optional[Dict[str, str]] = None):
-    # можно и без пандаса спарсить csv, но для такой задачи проще с пандасом
+
     df = pd.read_csv(dataset_path, dtype=type_override, 
                                     na_values=['nan'], keep_default_na=False)
     num_rows = len(df)
